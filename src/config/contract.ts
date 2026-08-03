@@ -2,6 +2,7 @@ import type { Address } from 'viem'
 
 const deployedAddress = '0x2dD3E92bEe97d279F1b2E3eF3db0e3E860A7F0C6'
 const configuredAddress = import.meta.env.VITE_LOOP16_CONTRACT_ADDRESS
+const zeroAddress = '0x0000000000000000000000000000000000000000'
 const activeAddress = configuredAddress || deployedAddress
 
 export const isContractConfigured =
